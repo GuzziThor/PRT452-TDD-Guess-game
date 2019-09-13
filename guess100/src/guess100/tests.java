@@ -18,6 +18,8 @@ class tests {
      assertTrue(numbertest >= 1 && numbertest <= 100);
      
 	}
+	
+	
 	@Test
 	void guessWithinrange() {
 		 new Guess100();
@@ -30,15 +32,15 @@ class tests {
 	}
 	
 	
-	
+//	
 //	//Testing if the number guessed is greater than 100
 //	@Test
 //     void guessgreater() {
 //       // setup
-//		 int number = 101;
+//		 int number = 99;
 //        
 //        // execute
-//        boolean actual = Guess100.guessGreater(number);
+//        boolean actual = Guess100.guessLess(number);
 //        
 //        // assert
 //        assertTrue(actual);
@@ -49,10 +51,10 @@ class tests {
 //	@Test
 //    void guessLesser() {
 //      // setup
-//		 int number = 0;
+//		 int number = 2;
 //       
 //       // execute
-//       boolean actual = Guess100.guessLesser(number);
+//       boolean actual = Guess100.guessGreat(number);
 //       
 //       // assert
 //       assertTrue(actual);
@@ -71,9 +73,18 @@ class tests {
 //       // assert
 //       assertTrue(actual);
 //   }
-	
+//	
 	
 }
+
+
+
+
+
+
+
+
+
 
 
 

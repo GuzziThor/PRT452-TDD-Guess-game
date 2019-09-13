@@ -9,11 +9,44 @@ static int rndnum = 0;
 static int tries = 0;
 static int number;
 
+
+
 public static int generateRndNumber() {
 	Random rnd = new Random();
   rndnum = rnd.nextInt(101);
 	return rndnum;
 }
+
+
+////Refactored Code
+//public static boolean guessLess(int number) {
+//	if(number < 100) {
+//		System.out.println("Sorry, this number is not within range");
+//	}
+//	
+//	return (number <100);
+//			
+//}
+//public static boolean guessGreat(int number) {
+//	if(number > 1) {
+//		System.out.println("Sorry, this number is not within range");
+//	}
+//	
+//	return (number > 1);
+//			
+//}
+//
+//public static boolean lowerUpperQ(String ignoreCase) {
+//	
+//	if(ignoreCase == "q" || ignoreCase == "Q") {
+//		System.out.println("Case ignored");
+//	}
+//	
+//	return true; 
+//}
+//
+
+
 
 public static boolean guessWithinrange(int number) {
 	
@@ -26,6 +59,9 @@ public static boolean guessWithinrange(int number) {
 	tries++;
     return true;	
 }
+
+
+
 
 public static void guess(){
 
